@@ -1,0 +1,18 @@
+<recipe>
+<name>test 3</name>
+<finish>19:30</finish>
+
+<parent_task>
+<!-- potatoes at 190C, 80 mins-->
+	<title>potatoes</title>
+	<task>
+		<title>prep</title>
+		<minutes>5</minutes>
+	</task>
+	<task>
+		<title>cook</title>
+		<minutes>5</minutes>
+	</task>
+</parent_task>
+
+</recipe>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="au.com.brian.timer"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application android:name=".activity.CookingTimerActivity" 
+    	android:icon="@drawable/icon" android:label="A Cooking Timer" android:debuggable="true">
+        <activity android:name=".activity.CookingTimerActivity"
+                  android:label="A Cooking Timer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.RecipePickerActivity"
+                  android:label="Pick a recipe">
+        </activity>
+        <activity android:name=".activity.RecipeIntroActivity"
+                  android:label="Intro for a recipe">
+        </activity>
+       <receiver android:name=".util.OneShotAlarm" android:process=":remote" /> <!--  change to not remote, to share singleton app object? -->
+       <receiver android:name=".util.OneShotAlarm2" android:process=":remote" />
+        <service android:name=".activity.RemoteService" android:process=":remote" />
+
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+
+</manifest> 

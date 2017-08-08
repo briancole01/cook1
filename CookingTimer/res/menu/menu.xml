@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:id="@+id/app_controls">
+		<item android:id="@+id/menu_help" android:title="@string/about" 
+			android:checkable="false" android:icon="@android:drawable/ic_menu_help"></item>
+		<item android:id="@+id/menu_pick_recipe" android:title="@string/pick_recipe" 
+			android:checkable="false" android:icon="@android:drawable/ic_menu_preferences"></item>
+		<item android:id="@+id/menu_pause" android:title="@string/pause" 
+			android:checkable="false" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+		<item android:id="@+id/menu_stop" android:title="@string/stop" 
+			android:checkable="false" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>
+	</group> 
+</menu> 

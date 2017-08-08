@@ -1,0 +1,44 @@
+package au.com.brian.timer.activity;
+
+import java.util.List;
+
+import roboguice.application.RoboApplication;
+import android.app.Instrumentation;
+
+import com.google.inject.Module;
+
+/** Class for the Guice modules. Needs to be in the AndroidManifest */
+public class TimerApplication extends RoboApplication {
+	
+	public TimerApplication() {
+		// constructor for the unit tests
+        super();
+        System.out.println("null arg constructor unexpectedly being called for TimerApplication");
+    }    
+
+	public TimerApplication( Instrumentation instrumentation ) {
+		// constructor for the unit tests
+        super();
+        attachBaseContext(instrumentation.getTargetContext());
+    }    
+	
+	protected void addApplicationModules(List<Module> modules) {
+        modules.add(new TimerModule());
+    }
+}
+
+
+package au.com.brian.timer.activity;
+
+import com.google.inject.Binder;
+import com.google.inject.Module;
+
+/** A module for Guice bindings */
+public class TimerModule implements Module {
+
+	@Override
+	public void configure(Binder arg0) {
+		// TODO Auto-generated method stub
+	}
+
+}

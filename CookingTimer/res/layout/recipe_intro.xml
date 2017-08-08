@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:paddingLeft="2dp"
+	android:paddingRight="2dp">
+
+	<TextView android:id="@+id/introText" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:padding="3px"
+		android:autoLink="web" android:text="" />
+
+     <ListView android:id="@id/android:list"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:background="#002222"
+               android:drawSelectorOnTop="false"/>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="8dp" android:paddingRight="8dp">
+	<TextView android:id="@+id/totalTime" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:padding="3px"
+		android:autoLink="web" android:text="" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:padding="3px"
+		android:autoLink="web" android:text=" mins" />
+	</LinearLayout>
+
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:paddingLeft="8dp" android:paddingRight="8dp">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:padding="3px"
+			android:text="Finish time: " />
+		<TextView android:id="@+id/finishTime" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:padding="3px"
+			android:text="" />
+		<Button android:id="@+id/changeTimeButton" android:text="Change"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<Button android:id="@+id/startButton" android:text="@string/start"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+</LinearLayout>
+

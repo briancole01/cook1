@@ -1,0 +1,35 @@
+<recipe>
+<name>Lunch today</name>
+<finish>19:30</finish>
+<intro>Lunch with Jesus and Helen</intro>
+<parent_task>
+	<title>chicken</title>
+	<task>
+		<title>first roast</title>
+		<minutes>20</minutes>
+	</task>
+	<task>
+		<title>add wine</title>
+		<minutes>1</minutes>
+	</task>
+	<task>
+		<title>second roast</title>
+		<minutes>20</minutes>
+	</task>
+</parent_task>
+<parent_task>
+	<title>lamb</title>
+	<task>
+		<title>potatoes</title>
+		<minutes>20</minutes>
+	</task>
+	<task>
+		<title>add lamb</title>
+		<minutes>20</minutes>
+	</task>
+	<task>
+		<title>rest lamb, add tomatoes, carrots</title>
+		<minutes>15</minutes>
+	</task>
+</parent_task>
+</recipe>

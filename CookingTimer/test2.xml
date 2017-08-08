@@ -1,0 +1,10 @@
+<recipe>
+<name>test 2</name>
+<!-- <finish>20:00</finish>  -->
+
+<task>
+	<title>beans</title>
+	<minutes>30</minutes>
+</task>
+
+</recipe>

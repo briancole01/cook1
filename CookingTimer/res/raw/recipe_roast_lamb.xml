@@ -1,0 +1,73 @@
+<recipe>
+<name>Roast Lamb</name>
+<finish>18:30</finish>
+
+<task>
+<!-- lamb: 30min per lb at 190C -->
+	<title>lamb</title>
+	<task>
+		<title>prep</title>
+		<minutes>5</minutes>
+	</task>
+	<task>
+		<title>cook</title>
+		<minutes>100</minutes>
+	</task>
+	<task>
+		<title>rest lamb</title>
+		<minutes>30</minutes>
+	</task>
+</task>
+
+<task>
+<!-- potatoes at 190C, 80 mins-->
+	<title>potatoes</title>
+	<task>
+		<title>prep</title>
+		<minutes>5</minutes>
+	</task>
+	<task>
+		<title>cook</title>
+		<minutes>80</minutes>
+	</task>
+</task>
+
+
+<task>
+	<title>carrots and parsnips</title>
+	<task>
+		<title>prep</title>
+		<minutes>5</minutes>
+	</task>
+	<task>
+		<title>cook</title>
+		<minutes>20</minutes>
+	</task>
+</task>
+
+
+<task>
+	<title>corn</title>
+	<task>
+		<title>prep</title>
+		<minutes>5</minutes>
+	</task>
+	<task>
+		<title>cook</title>
+		<minutes>30</minutes>
+	</task>
+</task>
+
+<task>
+	<title>beans</title>
+	<task>
+		<title>prep</title>
+		<minutes>5</minutes>
+	</task>
+	<task>
+		<title>cook</title>
+		<minutes>10</minutes>
+	</task>
+</task>
+
+</recipe>

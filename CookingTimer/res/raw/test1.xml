@@ -1,0 +1,38 @@
+<recipe>
+<name>test 1</name>
+<finish>20:00</finish>
+
+<task>
+	<!-- lamb: 30min per lb at 190C -->
+	<title>lamb</title>
+	<description>yummy lamb ...</description>
+	<task>
+		<title>prep</title>
+		<minutes>10</minutes>
+		<description>lots of pepper!</description>
+	</task>
+	<task>
+		<title>cook in oven</title>
+		<minutes>50</minutes>
+	</task>
+</task>
+
+<task>
+	<title>potatoes</title>
+	<task>
+		<title>prep</title>
+		<minutes>15</minutes>
+	</task>
+	<task>
+		<title>cook in oven</title>
+		<minutes>55</minutes>
+	</task>
+</task>
+
+<task>
+	<title>beans</title>
+	<minutes>10</minutes>
+</task>
+
+
+</recipe>
